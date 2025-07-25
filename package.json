@@ -2,9 +2,10 @@
   "name": "chat",
   "version": "0.0.1",
   "description": "Node js chat based on WebSocket",
-  "main": "index.js",
+  "main": "cmd/chat/index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node cmd/chat/index.js"
   },
   "repository": {
     "type": "git",
